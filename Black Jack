@@ -1,0 +1,144 @@
+import os
+import random
+
+# Greeting + Instructions
+print("This is Lydia's BlackJack Game")
+
+instructions = input("Do you need instructions? (Y/N): ").lower()
+
+if instructions == "y":
+    print("""
+Dealer vs You!
+
+- Get as close to 21 as possible without going over
+- Going over 21 = BUST (you lose)
+- Number cards = face value
+- J, Q, K = 10
+- A = 1 or 11
+- Blackjack = Ace + 10-value card
+
+Options:
+- H = Hit (draw another card)
+- S = Stand (keep your hand)
+- Q = Quit
+
+Good luck!
+""")
+elif instructions == "n":
+    print("\nLet's get started!")
+else:
+    print("\nInvalid input. Starting game anyway...\n")
+
+
+deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] * 4
+
+def deal(deck):
+    hand = []
+    for _ in range(2):
+        card = deck.pop()
+        if card == 11: card = "J"
+        elif card == 12: card = "Q"
+        elif card == 13: card = "K"
+        elif card == 14: card = "A"
+        hand.append(card)
+    return hand
+
+def play_again():
+    global deck
+    again = input("Do you want to play again? (Y/N): ").lower()
+    if again == "y":
+        deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] * 4
+        random.shuffle(deck)
+        game()
+    else:
+        print("Bye!")
+        exit()
+
+def total(hand):
+    total_val = 0
+    for card in hand:
+        if card in ["J", "Q", "K"]:
+            total_val += 10
+        elif card == "A":
+            total_val += 11 if total_val < 11 else 1
+        else:
+            total_val += card
+    return total_val
+
+def hit(hand):
+    card = deck.pop()
+    if card == 11: card = "J"
+    elif card == 12: card = "Q"
+    elif card == 13: card = "K"
+    elif card == 14: card = "A"
+    hand.append(card)
+
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+def print_results(dealer_hand, player_hand):
+    clear()
+    print("Dealer:", dealer_hand, "Total:", total(dealer_hand))
+    print("Player:", player_hand, "Total:", total(player_hand))
+
+def blackjack(dealer_hand, player_hand):
+    if total(player_hand) == 21:
+        print_results(dealer_hand, player_hand)
+        print("Blackjack! You win!\n")
+        play_again()
+    elif total(dealer_hand) == 21:
+        print_results(dealer_hand, player_hand)
+        print("Dealer has Blackjack. You lose.\n")
+        play_again()
+
+def score(dealer_hand, player_hand):
+    print_results(dealer_hand, player_hand)
+
+    if total(player_hand) > 21:
+        print("You busted. You lose.\n")
+    elif total(dealer_hand) > 21:
+        print("Dealer busted. You win!\n")
+    elif total(player_hand) > total(dealer_hand):
+        print("You win!\n")
+    elif total(player_hand) < total(dealer_hand):
+        print("You lose.\n")
+    else:
+        print("It's a tie!\n")
+
+def game():
+    global deck
+    random.shuffle(deck)
+
+    clear()
+    print("WELCOME TO BLACKJACK!\n")
+
+    dealer_hand = deal(deck)
+    player_hand = deal(deck)
+
+    while True:
+        print("Dealer shows:", dealer_hand[0])
+        print("Your hand:", player_hand, "Total:", total(player_hand))
+
+        blackjack(dealer_hand, player_hand)
+
+        choice = input("[H]it, [S]tand, or [Q]uit: ").lower()
+        clear()
+
+        if choice == "h":
+            hit(player_hand)
+            if total(player_hand) > 21:
+                score(dealer_hand, player_hand)
+                play_again()
+
+        elif choice == "s":
+            while total(dealer_hand) < 17:
+                hit(dealer_hand)
+            score(dealer_hand, player_hand)
+            play_again()
+
+        elif choice == "q":
+            print("Bye!")
+            exit()
+
+if __name__ == "__main__":
+    game()
