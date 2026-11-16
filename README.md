@@ -66,6 +66,13 @@ This repository contains multiple projects and practice exercises, including:
 | Project Name       | Description                        | Status         |
 | ------------------ | ---------------------------------- | -------------- |
 | Blackjack Game     | Command-line Python blackjack game | ✅ Completed    |
+| Tin Dog     | HTML & CSS basic landing page | ✅ Completed    |
+| Password Generator     | Javascript | ✅ Completed    |
+| Random Quote     | Javascript | ✅ Completed    |
+| Dice Challenge     | Javascript dice game | ✅ Completed    |
+| Accordion     | JQuery accordion page | ✅ Completed    |
+| Carousel     | JQuery photo carousel | ✅ Completed    |
+| Shadow box     | JQuery | ✅ Completed    |
 | (More coming soon) | Additional full stack projects     | 🔄 In Progress |
 
 ---
