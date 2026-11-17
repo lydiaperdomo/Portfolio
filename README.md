@@ -65,14 +65,16 @@ This repository contains multiple projects and practice exercises, including:
 
 | Link | Project Name | Description | Status |
 | ------------------------------------------------------------ |------------------ | ---------------------------------- | -------------- |
-| Blackjack Game (https://github.com/lydiaperdomo/Portfolio/blob/main/Black%20Jack) | Command-line Python blackjack game | ✅ Completed |
-| Tin Dog (https://github.com/lydiaperdomo/Portfolio/tree/main/TinDog) | HTML & CSS basic landing page | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/Black%20Jack">Blackjack Game</a> | Command-line Python blackjack game | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/TinDog/tindog.html">Tin Dog</a> | HTML & CSS basic landing page | ✅ Completed |
 | <a href="https://lydiaperdomo.github.io/Portfolio/Javascript/password%20generator/passgen.html">Password Generator</a> | Javascript | ✅ Completed |
-| Random Quote (https://github.com/lydiaperdomo/Portfolio/tree/main/Javascript) | Javascript | ✅ Completed |
-| Dice Challenge (https://github.com/lydiaperdomo/Portfolio/tree/main/Javascript) | Javascript dice game | ✅ Completed |
-| Accordion (https://github.com/lydiaperdomo/Portfolio/tree/main/jQuery) | JQuery accordion page | ✅ Completed |
-| Carousel (https://github.com/lydiaperdomo/Portfolio/tree/main/jQuery) | JQuery photo carousel | ✅ Completed |
-| Shadow box (https://github.com/lydiaperdomo/Portfolio/tree/main/jQuery) | JQuery | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/Javascript/randomquote/quotegen.html">Random Quote</a> | Javascript | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/lovecalculator/loveCalculator.html">Love Calculator</a> | Javascript | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/Javascript/click.html">Click Counter</a> | Javascript | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/Javascript/Dicee+Challenge+-+Starting+Files/dicee.html">Dice Challenge</a> | Javascript dice game | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/jQuery/accordion.html">Accordion</a>  | JQuery accordion page | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/jQuery/carousel.html">Carousel</a> | JQuery photo carousel | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/jQuery/shadow/shadow.html">Shadow Box</a>  | JQuery | ✅ Completed |
 | none | (More coming soon) | Additional full stack projects | 🔄 In Progress |
 
 ---
