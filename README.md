@@ -63,17 +63,17 @@ This repository contains multiple projects and practice exercises, including:
 
 ## 🚀 Projects
 
-| Project Name       | Description                        | Status         |
-| ------------------ | ---------------------------------- | -------------- |
-| Blackjack Game     | Command-line Python blackjack game | ✅ Completed    |
-| Tin Dog     | HTML & CSS basic landing page | ✅ Completed    |
-| Password Generator     | Javascript | ✅ Completed    |
-| Random Quote     | Javascript | ✅ Completed    |
-| Dice Challenge     | Javascript dice game | ✅ Completed    |
-| Accordion     | JQuery accordion page | ✅ Completed    |
-| Carousel     | JQuery photo carousel | ✅ Completed    |
-| Shadow box     | JQuery | ✅ Completed    |
-| (More coming soon) | Additional full stack projects     | 🔄 In Progress |
+| Link | Project Name | Description | Status |
+| ------------------------------------------------------------ |------------------ | ---------------------------------- | -------------- |
+| Blackjack Game (https://github.com/lydiaperdomo/Portfolio/blob/main/Black%20Jack) | Command-line Python blackjack game | ✅ Completed |
+| Tin Dog (https://github.com/lydiaperdomo/Portfolio/tree/main/TinDog) | HTML & CSS basic landing page | ✅ Completed |
+| Password Generator (https://github.com/lydiaperdomo/Portfolio/tree/main/Javascript) | Javascript | ✅ Completed |
+| Random Quote (https://github.com/lydiaperdomo/Portfolio/tree/main/Javascript) | Javascript | ✅ Completed |
+| Dice Challenge (https://github.com/lydiaperdomo/Portfolio/tree/main/Javascript) | Javascript dice game | ✅ Completed |
+| Accordion (https://github.com/lydiaperdomo/Portfolio/tree/main/jQuery) | JQuery accordion page | ✅ Completed |
+| Carousel (https://github.com/lydiaperdomo/Portfolio/tree/main/jQuery) | JQuery photo carousel | ✅ Completed |
+| Shadow box (https://github.com/lydiaperdomo/Portfolio/tree/main/jQuery) | JQuery | ✅ Completed |
+| none | (More coming soon) | Additional full stack projects | 🔄 In Progress |
 
 ---
 
