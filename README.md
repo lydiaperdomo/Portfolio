@@ -77,7 +77,7 @@ This repository contains multiple projects and practice exercises, including:
 | <a href="https://lydiaperdomo.github.io/Portfolio/lovecalculator/loveCalculator.html">Love Calculator</a> | Javascript | ✅ Completed |
 | <a href="https://lydiaperdomo.github.io/Portfolio/Javascript/click.html">Click Counter</a> | Javascript | ✅ Completed |
 | <a href="https://lydiaperdomo.github.io/Portfolio/Javascript/Dicee+Challenge+-+Starting+Files/dicee.html">Dice Challenge</a> | Javascript dice game | ✅ Completed |
-| <a href="https://lydiaperdomo.github.io/Portfolio/jQuery/accordion.html">Accordion</a>  | JQuery accordion page | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/jQuery/Accordion.html">Accordion</a>  | JQuery accordion page | ✅ Completed |
 | <a href="https://lydiaperdomo.github.io/Portfolio/jQuery/carousel.html">Carousel</a> | JQuery photo carousel | ✅ Completed |
 | <a href="https://lydiaperdomo.github.io/Portfolio/jQuery/shadow/shadow.html">Shadow Box</a>  | JQuery | ✅ Completed |
 | none | (More coming soon) | Additional full stack projects | 🔄 In Progress |
