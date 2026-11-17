@@ -61,6 +61,11 @@ This repository contains multiple projects and practice exercises, including:
 
 ---
 
+## 🎓 Capstone Projects
+<a href="https://github.com/lydiaperdomo/FullStackDev/tree/main">Click here</a> to view my current Capstones
+
+---
+
 ## 🚀 Projects
 
 | Link | Project Name | Description | Status |
