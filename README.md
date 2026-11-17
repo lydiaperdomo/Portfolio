@@ -67,7 +67,7 @@ This repository contains multiple projects and practice exercises, including:
 | ------------------------------------------------------------ |------------------ | ---------------------------------- | -------------- |
 | Blackjack Game (https://github.com/lydiaperdomo/Portfolio/blob/main/Black%20Jack) | Command-line Python blackjack game | ✅ Completed |
 | Tin Dog (https://github.com/lydiaperdomo/Portfolio/tree/main/TinDog) | HTML & CSS basic landing page | ✅ Completed |
-| < a href"https://lydiaperdomo.github.io/Portfolio/Javascript/password%20generator/passgen.html">Password Generator</a> | Javascript | ✅ Completed |
+| <a href="https://lydiaperdomo.github.io/Portfolio/Javascript/password%20generator/passgen.html">Password Generator</a> | Javascript | ✅ Completed |
 | Random Quote (https://github.com/lydiaperdomo/Portfolio/tree/main/Javascript) | Javascript | ✅ Completed |
 | Dice Challenge (https://github.com/lydiaperdomo/Portfolio/tree/main/Javascript) | Javascript dice game | ✅ Completed |
 | Accordion (https://github.com/lydiaperdomo/Portfolio/tree/main/jQuery) | JQuery accordion page | ✅ Completed |
